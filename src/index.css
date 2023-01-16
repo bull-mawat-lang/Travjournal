@@ -1,0 +1,102 @@
+:root {
+  --clr-oceanblue: hsl(240, 57%, 29%);
+  --clr-orange: #F55A5A;
+  --clr-orangedark: hsl(0, 57%, 43%);
+  --clr-green: hsl(120, 57%, 33%);
+  --clr-greendark: rgb(57, 150, 57);
+  --clr-yellow: hsl(70, 51%, 43%);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter';
+  background-color: #b2b2b8;
+ 
+}
+
+header {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F55A5A;
+}
+
+.navbar-item-logo {
+  width: 1.75 rem;
+}
+
+.navbar-item-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  padding-inline: 1.75rem;
+}
+
+.journal {
+  padding: 0 1rem;
+}
+
+.journal-image {
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.journal-item {
+  padding: 0.5rem;
+}
+
+.journal__pin {
+  width: 0.5rem;
+  height: 0.75rem;
+}
+
+.journal-item-country {
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #2B283A;
+  padding-inline: .75rem;
+}
+.journal-item-cordinate {
+  font-weight: 400;
+  font-size: 0.75rem;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+.journal-item-place {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #2B283A;
+}
+.journal-item-date {
+  font-weight: 700;
+  font-size: 1rem;
+
+  color: #2B283A;
+}
+.journal-item-description {
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #2B283A;
+}
+
+.footer {
+  font-weight: 400;
+  font-size: 0.5rem;
+  background: #5b5c5c;
+  text-align: center;
+  color: #fafafb;
+  padding: 1rem;
+}
+
+
+
+@media (min-width: 577px) {
+  .journal {
+    display: flex;
+    padding: 0.5rem;
+  }
+}
